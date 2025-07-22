@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 파일별 라우터 인스턴스 포함시키기
+# 파일별 라우터 인스턴스 포함시키
 app.include_router(items.router)
 app.include_router(index.router)
 app.include_router(chat.router)
